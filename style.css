@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: aqua;
+    text-align: center;
+    background-color: #23B5D3;
+}
+
+.container{
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+
+}
+.title{
+    background-color: #BC5D2E;
+    border-radius: 0px 0 45px 43px;
+    border-bottom: 10rem;
+}
+.game{
+    /* text-align: center; */
+    height: 60vmin;
+    width: 60vmin;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:1.5vmin;
+  /* background-color: #A2D3C2; */
+    /* background-image: url("https://media.istockphoto.com/id/91227309/photo/crosses-and-noughts-game.jpg?s=612x612&w=0&k=20&c=g023p5gjN4m3RbGwLzs8Kr1lgEcWN9L_VIlmr28yxBg="); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 14px;
+    border-bottom: 20px;
+    filter: drop-shadow(5px 5px 15px #5e9e9e);
+}
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 20px;
+  /* background-image: url("https://media.istockphoto.com/id/91227309/photo/crosses-and-noughts-game.jpg?s=612x612&w=0&k=20&c=g023p5gjN4m3RbGwLzs8Kr1lgEcWN9L_VIlmr28yxBg="); */
+/* background-color: #e4eef1; */
+font-size: 30px;
+color: red;
+}
+.box:hover{
+    border: 2px dotted #d34848;
+    transform: scale(1.2,1.2);
+}
+/* button{
+     border-radius: 50px;
+     border: 1px solid red; 
+}  */
+.dispplay{
+    
+    background-color: #f892bc;
+    display: inline-block;
+    font-size: 35px;
+    color: #fc6704;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* display: none; */
+}
+.new-btn{
+    display: inline-block;
+    background-color: #99d8c5;
+    font-size: 25px;
+    color: #8722b6;
+    width: 25vmin;
+    border-radius: 10px;
+    font-family: 'Calibri', Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.hide{
+    display: none;
+}
