@@ -5,8 +5,8 @@ let xo = true;
 let neww = document.querySelector(".new-btn");
 // let firstuser=prompt("enter player one");
 // let sencondPlayer=prompt("enter play two");
-let firstuser="musali";
-let sencondPlayer="Nannamma";
+let firstuser="asif";
+let sencondPlayer="abhi";
 
 
 let count=0;
