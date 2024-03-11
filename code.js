@@ -5,6 +5,7 @@ let xo = true;
 let neww = document.querySelector(".new-btn");
 // let firstuser=prompt("enter player one");
 // let sencondPlayer=prompt("enter play two");
+let name= prompt("enter the name");
 let firstuser="asif";
 let sencondPlayer="abhi";
 
